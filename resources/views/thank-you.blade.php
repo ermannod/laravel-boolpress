@@ -4,8 +4,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>{{ __('messages.home_title') }}</h1>
-
+                <h1>Grazie per il tuo messaggio!</h1>
+                <p>Ti risponderemo nel più breve tempo possibile.</p>
             </div>
         </div>
     </div>

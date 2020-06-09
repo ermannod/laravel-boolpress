@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    bacheca amministrazione
                 </div>
             </div>
         </div>

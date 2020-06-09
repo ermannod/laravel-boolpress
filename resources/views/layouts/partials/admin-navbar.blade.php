@@ -10,9 +10,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="{{('admin.posts.index')}}">Manage Post</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ Route::currentRouteName() == 'admin.posts.index' ? 'active' : '' }}" href="{{ route('admin.posts.index') }}">Gestione post</a>
+                </li>
             </ul>
 
             <!-- Right Side Of Navbar -->
