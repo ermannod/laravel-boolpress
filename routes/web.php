@@ -26,7 +26,7 @@ Route::group(
         Route::get(LaravelLocalization::transRoute('routes.tag'), 'PostController@postTag')->name('blog.tag');
 });
 
-Auth::routes(['register' => false]);
+Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->namespace('Admin')->name('admin.')->group(function() {
     Route::get('/', 'HomeController@index')->name('home');
